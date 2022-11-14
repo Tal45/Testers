@@ -43,7 +43,7 @@ public class TalDateTester {
         System.out.println("************************\n\n");   
         System.out.println("*****TESTING FOR ALIASING******");
         Date d10 = new Date (31, 1, 1467);
-        Date d11 = new Date(d10);
+        Date d11 = d10;
         d11.setYear(1990);
         System.out.println(((d10.getYear()==1467) ? "\t***TEST PASSED**\n" : "\t***TEST FAILED YEAR 1467 EXPECTED**\n"));
         System.out.println("*****TESTING SETTERS******");
