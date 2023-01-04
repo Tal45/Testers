@@ -1,4 +1,4 @@
-public class TalDateTester {
+public class DateTester {
     public static void main(String []args) {
         // tester for date
         String defDate = ("01/01/2000");
