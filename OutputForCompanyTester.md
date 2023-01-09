@@ -5,10 +5,12 @@ Name:Tal From:10/05/2022 To:15/05/2022 Type:A Days:5 Price:500
 
 Double-listing: (expecting false) false
 
-Successfully added: (expecting 2) =>
+Successfully added: (expecting 2)
 The company has 2 rents:
 Name:Tal From:10/05/2022 To:15/05/2022 Type:A Days:5 Price:500
 Name:Thomas From:01/01/2023 To:08/01/2023 Type:C Days:7 Price:1134
+
+	*MIND THE ORDER!: Arthur > Tal > Thomas*
 
 Successfully added: (expecting 3)
 The company has 3 rents:
@@ -18,6 +20,7 @@ Name:Thomas From:01/01/2023 To:08/01/2023 Type:C Days:7 Price:1134
 
 	******Testing removeRent method******
 Trying to remove non-existent rent: (false expected) => false
+
 The company has 3 rents:
 Name:Arthur From:02/07/2018 To:29/07/2018 Type:D Days:27 Price:5976
 Name:Tal From:10/05/2022 To:15/05/2022 Type:A Days:5 Price:500
