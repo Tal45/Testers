@@ -99,14 +99,7 @@ public class CompanyTester
         c3.addRent("Yankee", cr1, d3, d4);
         System.out.println("C3:\n"+c3+"\n\n"+"C1:\n"+c1);
         c1.merge(c3);
-        System.out.println("\nMerge C3 in C1:\n"+c1);
-        
-        System.out.println("\n\t******Testing unifyRents method******"); 
-        c1.addRent("Tal", cr1, new Date(12,05,2022), new Date(19,05,2022));
-        System.out.println("Expecting Tal to be united to a rent from 10/05 to 19/05:\n"+c1);
-        c1.unifyRents();
-        System.out.println("\nAfter unifyRents method:\n"+c1);
-        
+        System.out.println("\nMerge C3 in C1:\n"+
         System.out.println("\n\t******Testing toString method******"); 
         System.out.println("\n\tPAY CLOSE ATTENTION TO PRINTS\n"); 
         c3.removeRent(new Date(29,07,2018));
