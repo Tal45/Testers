@@ -99,24 +99,6 @@ Name:Arthur the II From:27/07/2018 To:29/07/2018 Type:C Days:2 Price:360
 Name:Tal From:10/05/2022 To:15/05/2022 Type:A Days:5 Price:500
 Name:Thomas From:01/01/2023 To:08/01/2023 Type:C Days:7 Price:1134
 
-	******Testing unifyRents method******
-Expecting Tal to be united to a rent from 10/05 to 19/05:
-The company has 6 rents:
-Name:Yankee From:02/07/2018 To:29/07/2018 Type:A Days:27 Price:2490
-Name:Arthur From:02/07/2018 To:29/07/2018 Type:D Days:27 Price:5976
-Name:Arthur the II From:27/07/2018 To:29/07/2018 Type:C Days:2 Price:360
-Name:Tal From:10/05/2022 To:15/05/2022 Type:A Days:5 Price:500
-Name:Tal From:12/05/2022 To:19/05/2022 Type:A Days:7 Price:630
-Name:Thomas From:01/01/2023 To:08/01/2023 Type:C Days:7 Price:1134
-
-After unifyRents method:
-The company has 5 rents:
-Name:Yankee From:02/07/2018 To:29/07/2018 Type:A Days:27 Price:2490
-Name:Arthur From:02/07/2018 To:29/07/2018 Type:D Days:27 Price:5976
-Name:Arthur the II From:27/07/2018 To:29/07/2018 Type:C Days:2 Price:360
-Name:Tal From:10/05/2022 To:19/05/2022 Type:A Days:9 Price:830
-Name:Thomas From:01/01/2023 To:08/01/2023 Type:C Days:7 Price:1134
-
 	******Testing toString method******
 
 	PAY CLOSE ATTENTION TO PRINTS
