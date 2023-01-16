@@ -156,3 +156,15 @@ lastCarRent: id:1111111 type:C brand:Renault gear:manual
 Longest rent: Name:Dima From:02/07/2018 To:09/01/2023 Type:C Days:1652 Price:267624
 Most Common Rate: D
 -----------------------------------------------
+
+
+	******Testing for aliasing******
+
+Testing aliasing for lastCarRent method 
+
+Test Passed
+
+Testing aliasing for longestRent method 
+
+Passed!
+
