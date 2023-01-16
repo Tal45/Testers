@@ -135,5 +135,23 @@ public class CompanyTester
         System.out.println("Total active rents: "+c3.getNumOfRents()+"\nTotal Price: "+c3.getSumOfPrices()+"\nTotal sum of days: "+c3.getSumOfDays());
         System.out.println("Average rent: "+c3.averageRent()+"\nlastCarRent: "+c3.lastCarRent()+"\nLongest rent: "+c3.longestRent()+"\nMost Common Rate: "+c3.mostCommonRate());
         System.out.println("-----------------------------------------------\n");
+        
+        // aliasing test contributed by @Yedidya Darshan
+        System.out.println("\n\t******Testing for aliasing******"); 
+        Car testCar = c2.lastCarRent();
+        cr3.setType('A');
+        System.out.println("\nTesting aliasing for lastCarRent method \n");
+        if (testCar.getType() != cr3.getType())
+            System.out.println("Test Passed");
+        else
+            System.out.println("Test FAILED, please fix aliasing issue");
+
+        System.out.println("\nTesting aliasing for longestRent method \n");
+        Rent testRent = c2.longestRent();
+        testRent.setPickDate(new Date(4,5,2006));
+        if (! testRent.equals(c2.longestRent()))
+            System.out.println("Passed!");
+        else
+            System.out.println("FAILED, please check for aliasing");
     }
 }
