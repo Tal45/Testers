@@ -3,9 +3,9 @@ public class CompanyTester
     public static  void main(String [] args) {
 
         Car cr1 = new Car(1234567, 'A', "Toyota", true);
-        Car cr2 = new Car(1000001,'C',"Citroen", false�);
+        Car cr2 = new Car(1000001,'C',"Citroen", false);
         Car cr3 = new Car(1002001,'D',"Citroen", true);
-        Car cr4 = new Car(1111111,'C',"Renault", true�);
+        Car cr4 = new Car(1111111,'C',"Renault", true);
         Car cr5 = new Car(1233215, 'B',"Bentley", false);
 
         Date d1 = new Date (10,5,2022);
